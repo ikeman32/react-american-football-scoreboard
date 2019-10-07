@@ -21,8 +21,8 @@ function App() {
         { /* TODO STEP 3 - We need to change the hardcoded values in these divs to accept dynamic values from our state. */ }
 
         <
-        div className = "home__score" > { homeScore } < /div>  <
-        /div > <
+        div className = "home__score" > { homeScore } < /div>  < /
+        div > <
         div className = "timer" > 00: 03 < /div>   <
         div className = "away" >
         <
@@ -61,7 +61,7 @@ function App() {
         } > Away Extrapoint < /button><
         button className = "awayButtons__fieldGoal"
         onClick = {
-            () => setAwayScore(awayScore + 1)
+            () => setAwayScore(awayScore + 3)
         } > Away Field Goal < /button> < /
         div > <
         /section> < /
